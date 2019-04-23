@@ -6,12 +6,12 @@ body {
     text-align: left;
     background: white;
 }
-
+/*
 header {
     background: rgb(255, 44, 209);
 }
 
-header::after {
+header:after {
     content: '';
     display: table;
     clear: both;
@@ -44,6 +44,34 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
 }
+*/
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav {
+    background-color: rgb(255, 44, 209);
+    overflow: hidden;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 75px;
+    float: left;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: black;
+}
+
 
 h1 {
     font-size: 2.5rem;
@@ -58,7 +86,7 @@ p {
 
 
 .container {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -84,9 +112,11 @@ p {
     max-width: 100%;
 }
 
-.page-container {
+section {
     position: relative;
     min-height: 100vh;
+    margin: auto 5%;
+    background-color: lightgrey;
 }
 
 footer {
