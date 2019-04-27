@@ -73,7 +73,50 @@ nav a:hover {
     background-color: black;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
 
+.dropdown .dropdown-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 75px;
+    float: left;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #b8b8b8;
+    min-width: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 
 h1 {
