@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles_calculator.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="connect.js"></script>
+</head>
+
+<body>
+    <section>
+        <!--
+        <div class="content">
+            <div class="question"><p>Add 5 to a number</p></div>
+            <div class="in">
+            <form id="form1">
+                Enter an integer: <br>
+                <input type="text" id="n"><br>
+                <input type="submit" id="button1" value="Submit">
+            </form>
+            </div>
+            <div class="answer">
+                <p id="num"></p>
+            </div>
+        </div> -->
+        <div class="bacc">
+            <input type="button" onclick="location.href='https://correctbutnotright.github.io/';"
+                value="Back"/>
+        </div>
+        <div class="content">
+            <div class="question">
+                <p>Calculate CS 136 Clicker Marks</p>
+            </div>
+            <div class="in">
+                <form id="form1">
+                    <table id="submission">
+                        <tr>
+                            <td id="t">Correct: </td>
+                            <td><input type="text" id="cor"></td>
+                        </tr>
+                        <tr>
+                            <td id="t">Incorrect: </td>
+                            <td><input type="text" id="inc"></td>
+                        </tr>
+                        <tr>
+                            <td id="t">Absent: </td>
+                            <td><input type="text" id="abs"></td>
+                        </tr>
+                    </table>
+                    <input type="submit" id="button1" value="Submit">
+                </form>
+            </div>
+            <div class="answer">
+                <p id="num"></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
