@@ -47,6 +47,10 @@ nav a {
 }
 */
 
+.navbar-nav li a {
+    padding: 25px 75px;
+}
+
 nav ul {
     margin: 0;
     padding: 0;
