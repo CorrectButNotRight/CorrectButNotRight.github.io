@@ -137,10 +137,11 @@ p {
 }
 
 
-.container {
+.contain {
     width: 90%;
     margin: 0 auto;
 }
+
 
 .des {
     font-family: Arial, Helvetica, sans-serif;
