@@ -25,6 +25,11 @@ img {
     margin: 50px;
 }
 
+.front h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
 .front p {
     text-align: center;
     margin: 20px;
