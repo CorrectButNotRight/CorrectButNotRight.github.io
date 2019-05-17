@@ -1,4 +1,5 @@
-/*
+
+
 body {
     height: 100%;
     margin: 0;
@@ -6,27 +7,31 @@ body {
     width: 100%;
     text-align: left;
     background: white;
-}
-*/
-
-body {
-    text-align: left;
     
 }
 
-.des {
-    text-align: center;
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+.front {
     justify-content: center;
 }
 
-section .row {
+.front h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+.front p {
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
     justify-content: center;
-}
-
-section .row h1 {
     text-align: center;
-}
-
-section .row p {
-    text-align: center;
+    margin: 50px;
 }
