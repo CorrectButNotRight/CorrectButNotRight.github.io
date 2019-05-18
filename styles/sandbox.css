@@ -11,7 +11,9 @@ body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 100;
+    width: 300px;
+
     display: block;
     height: auto;
 }
@@ -35,6 +37,7 @@ img {
 .front p {
     text-align: center;
     margin: 20px;
+    font-size: 1.2rem;
 }
 
 footer {
