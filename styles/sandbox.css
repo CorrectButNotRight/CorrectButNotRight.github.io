@@ -17,7 +17,9 @@ body {
     height: auto;
 }
 
-
+.container {
+    width: 90%;
+}
 
 .front {
     justify-content: center;
@@ -48,7 +50,7 @@ footer {
 
 footer img {
     max-width: 100%;
-    width: 24px;
+    width: 32px;
     height: auto;
     margin-right: 5px;
     display: inline-block;
