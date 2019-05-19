@@ -10,6 +10,10 @@ body {
     
 }
 
+nav {
+    background-color: #d300b0;
+}
+
 .front img {
     max-width: 100%;
     width: 300px;
@@ -17,12 +21,9 @@ body {
     height: auto;
 }
 
-.container {
-    width: 90%;
-}
-
 .front {
     justify-content: center;
+    padding-top: 50px;
 }
 
 .front h1 {
