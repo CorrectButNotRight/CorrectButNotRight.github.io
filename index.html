@@ -28,7 +28,7 @@
             </nav>
         </div>
     </div>
-
+    <!--
     <div class="d-md-none">
         <div class="container">
             <div class="dropdown">
@@ -42,6 +42,28 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <div class="d-md-none">
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="skills.html">Skills</a>
+                <a class="nav-link" href="projects.html">Projects</a>
+            </div>
+
+        </div>
+
+        <!-- Use any element to open/show the overlay navigation menu -->
+        <span onclick="openNav()">open</span>
+
+
     </div>
 
     <section class="container">
@@ -76,7 +98,7 @@
         </div>
     </section>
 
-    <footer class="footer fixed-bottom">
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3"></div>
@@ -110,6 +132,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+
+    <script src="scripts/overlay.js"></script>
 </body>
 
 </html>
