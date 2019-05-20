@@ -12,6 +12,10 @@ nav {
     background-color: #750062;
 }
 
+.custom-toggler .navbar-toggler {
+    border-color: #ff00d4
+}
+
 /* The Overlay (background) */
 .overlay {
     /* Height & width depends on how you want to reveal the overlay (see JS below) */
