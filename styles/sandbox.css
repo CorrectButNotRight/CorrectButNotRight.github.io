@@ -12,22 +12,30 @@ nav {
     background-color: #750062;
 }
 
+.navbar .navbar-brand{
+    font-size: 1.5rem;
+}
+
+.navbar .nav-item {
+    font-size: 1.2rem;
+}
 
 .front img {
     max-width: 100%;
     width: 300px;
     display: block;
     height: auto;
+    margin: 20px;
 }
 
 .front {
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 100px;
 }
 
 .front h1 {
     text-align: center;
-    margin: 50px;
+    margin-top: 30px;
 }
 
 .front h2 {
@@ -58,4 +66,5 @@ footer img {
 
 footer a {
     margin-right: 20px;
+    text-decoration: none;
 }
